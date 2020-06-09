@@ -5,7 +5,7 @@ all you need is just to creat some folders just as below
 
 1) Datset
 2) output
-3)images 
+3) images 
 
 
 Dataset folder contain all the datset and output  folder will contain model weights while images folder contain test images.
