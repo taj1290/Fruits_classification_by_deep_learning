@@ -11,7 +11,7 @@ all you need is just to creat some folders just as below
 Dataset folder contain all the datset and output  folder will contain model weights while images folder contain test images.
 
 First you have to run  "train_simple_nn.py" by using the following command
-# python train_simple_nn.py --dataset fruits --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+# python train_simple_nn.py --dataset fruits --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/loss_plot.png
 
 Then for pridiction on unknow data use the following command 
 # python predict.py --image images/banana.png --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --width 32 --height 32 --flatten 1
