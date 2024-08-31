@@ -16,3 +16,4 @@ First you have to run  "train_simple_nn.py" by using the following command
 Then for pridiction on unknow data use the following command 
 # python predict.py --image images/banana.png --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --width 32 --height 32 --flatten 1
 
+![fruits_with_price](https://github.com/user-attachments/assets/b9adfdc3-15e7-4913-b8fa-a0dcdd69161e)
